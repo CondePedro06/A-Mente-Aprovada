@@ -1,0 +1,170 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  height: 100vh;
+  font-family: arial;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+/*BANNER*/
+.banner{
+  display: flex;
+  width:100%;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  background: #DD2429;
+}
+.logo{
+  color: white;
+  letter-spacing: 2px;
+  flex: 45%;
+}
+.navbar{
+  flex: 45%;
+  display: flex;
+  text-align: right;
+  justify-content: space-evenly;
+}
+
+.navbar li{
+  display: inline-block;
+  margin: 10px;
+}
+.navbar li a{
+  color: white;
+  padding:6px 8px;
+}
+.btn-nav{
+  border: 2px solid #FC8337;
+  border-radius: 3px;
+}
+.btn-nav:hover{
+  border: none;
+  background: #54C242;
+}
+main{
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-bottom:10px;
+}
+#sobre{
+  flex: 70%;
+  line-height: 1.5;
+}
+.title{
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+.title span{
+  color:#DD2429;
+  text-transform: uppercase;
+}
+.paragraph{
+  line-height: 1.5;
+}
+.comprar{
+  margin: 0 auto;
+  width: 400px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.comprar a{
+  background:#54C242;
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size:20px;
+}
+.comprar a:hover{
+  background: green;
+}
+.capa{
+  flex:20%;
+}
+.capa img{
+  width: 300px;
+}
+
+.detalhes{
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sejacomo, .preco, .tempo{
+  flex: 30%;
+  background:#FC8337;
+  height: 200px;
+  margin: 10px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius:10px;
+  padding: 10px;
+}
+.sejacomo strong, .preco strong{
+  font-size:20px;
+}
+.valor{
+  font-size: 30px;
+}
+.detalhes p{
+  text-align: center;
+  margin-top: 0;
+}
+.detalhes img{
+  width:32px;
+}
+
+.depo-container{
+  max-width: 800px;
+  margin:0 auto;
+}
+.depoimentos{
+  background:#FC8337;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.depoimento{
+  flex:30%;
+  display: flex;
+  justify-content:space-around;
+  flex-direction: column;;
+  border: 2px solid white;
+  margin: 5px;
+  height: 160px;
+  border-radius: 10px;
+  line-height: 1.2;
+  padding: 6px;
+}
+.depoimento p{
+  font-weight: 500;
+  color: black;
+}
+.rodape{
+  background:#DD2429;
+  color: white;
+  text-align: center;
+  height: 150px;
+}
